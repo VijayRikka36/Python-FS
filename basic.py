@@ -35,7 +35,7 @@ print(type(age))
 #Operators ---> There are different type of operators ---> Operations
 
 #+,-,*,**,/ (Arthmetic Operators),//,%
-
+'''
 a=5
 b=3
 print(a/b) #/ --> Float Division (answer is always in float value)
@@ -48,9 +48,17 @@ price=1000
 discount=0.15
 final_prize= price-(price*discount)
 print(final_prize)
-
+'''
 #vijay went to hotel for dinner his bill is 2500 GST appicable is 5%
 #hotel manager has given him 5% discount,how much vijay has to pay
+
+price=2500
+gst=0.05
+discount=0.05
+final_price=price-(price * discount)
+#print(final_price)
+final_price=final_price+(final_price * gst)
+print(final_price)
 
 
 
